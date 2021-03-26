@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Poppins:wght@500&display=swap');
+
+
+
+
+body 
+{
+  margin: 0%;
+  padding: 0%;
+  font-family:poppins ;
+  scroll-behavior: smooth;
+}
+
+*
+{
+  box-sizing: border-box;
+}
+
+ul
+{
+  list-style: none;
+}
+ 
+a
+{
+  text-decoration:none ;
+}
+#main
+{
+  width: 100%;
+  height:100vh;
+  position: relative;
+
+}
+ 
+nav
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow:  5px 10px 30px rgba(0, 0, 0 , 0.02);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  background-color: #ffffff;
+
+}
+nav img 
+{
+  height: 40px;
+
+}
+nav ul
+{
+  display: flex;
+}
+nav ul li a 
+{
+  height: 40px;
+  line-height: 43px;
+  padding: 0 22px ;
+  margin: 3px;
+  display: flex;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: #585b5b;
+  letter-spacing: 1px ;
+  text-transform: uppercase;
+}
+nav .hey 
+{
+  color: rgb(87, 223, 87);
+  font-weight: 500;
+  border-bottom: rgb(87, 223, 87) ;
+  font-size: .9rem;
+
+}
+nav ul li a:hover
+{
+  color: #ffffff;
+  background-color: rgb(128, 228, 128);
+  box-shadow: 5px 10px 30px rgba(64, 198, 169, .3);
+  transition: all ease .2s;
+
+}
+/* content section */
+.content 
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 90%;
+
+}
+.content .model 
+{
+  width: 500px ;
+  height: 500px;
+}
+
+.content .model img 
+{
+  width: 100%;
+  height: 100%;
+}
+
+.content  .main-text
+{
+  width: 500px;
+}
+.content  .main-text h1 
+{
+  font-size: 3.5rem;
+  color: #1c3548;
+  line-height: 60px;
+  margin: 0 0 10px 0;
+}
+.content  .main-text p 
+{
+  color: #747474;
+}
+.content   .partofilo-btn
+{
+width: 195px;
+background-color: rgb(120, 207, 120);
+height: 44px ;
+line-height: 44px;
+padding: 10px;
+border-radius: 20px;
+color: #fff;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.content   .partofilo-btn:hover,
+.resent-btn:hover
+{
+  background-color: greenyellow;
+  transition: all ease .2s;
+}
+
+/*skills section */
+#skills
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width:90%;
+  margin: auto auto 50px auto;
+}
+#skills .skill-text 
+{
+  width:400px  ;
+}
+#skills .skill-img
+{
+  width: 600px ;
+  height: 600px;
+
+}
+
+.skill-img img 
+{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
+}
+.skill-text span
+{
+  color: rgb(38, 228, 228);
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+}
+.skill-text h2 
+{
+  color: rgb(12, 11, 11);
+  font-weight: 400;
+  letter-spacing:1px;
+  font-size: 3.5rem;
+  margin: 0;
+  text-transform:capitalize;
+}
+.skill-text .box-container 
+{
+  margin-top: 20px;
+}
+.box-container .box-skill
+{
+  display: flex;
+  margin: 20px 0;
+ 
+}
+.box-skill  .box-icon
+{
+  margin-right: 12px;
+}
+.box-container .box-skill i
+{
+  width: 40px;
+  height: 40px ;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+
+  
+}
+.box-container .box-skill strong 
+{
+  margin: 0;
+  color:#1c3548;
+  font-size: .9rem;
+  font-weight: 600;
+
+}
+.fa-html5 
+{
+  color: orange;
+}
+
+/*resent section */
+#resent 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading-resent span,
+.heading-client span
+
+{
+  color:#36b7b5;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+}
+.heading-resent .title,
+.heading-client .title
+{
+  text-transform: capitalize;
+  color: #1c3548
+  font-size: ;
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-size:30px;
+
+
+}
+
+.resent-img 
+{
+margin: 0 40px;
+}
+.resent-img img 
+{
+  width: 100%;
+  height: 100%;
+}
+
+.resent-btn
+,.box-client a
+
+{
+  color: #fff;
+  background-color: rgb(120, 207, 120);
+  height: 44px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 195px;
+  line-height: 44px;
+  margin: 0 -20px;
+}
+/* client section */
+#client
+{
+  width: 100%;
+  background-image: url("../images/bg.png");
+  background-position: center;
+  background-size: 1000px;
+  padding: 50px ;
+  border-top: 1px solid  rgba(0, , 58 , 0.03);
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px 0;
+  flex-direction: column;
+}
+
+.heading-client
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box-client-container
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+.box-client
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 330px;
+  height: 350px;
+  box-shadow:  5px 10px 30px rgba(48, 16, 16, 0.452);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px;
+  background-color:#ffffff;
+  transition: all .5s ease-in-out;
+}
+.box-client img
+{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.box-client .stars
+{
+  display: flex;
+  margin: 20px 0 10px 0;
+}
+.box-client .stars .fa
+{
+  color: #b4965596;
+
+}
+
+.box-client p 
+{
+  margin: 10px 0 0 0;
+  font-size:.9rem;
+  text-align: center;
+  display: block;
+
+}
+.box-client a
+{
+  margin: 20px;
+}
+
+.box-client:hover
+{
+  transform: translateY(-15px);
+
+}
+
+
